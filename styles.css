@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2rem;
+    color: white;
+    cursor: default;
+}
+.navbar a{
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 800;
+    text-decoration:none;
+    margin-left: 20px;
+    padding: 6px 15px;
+
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./images/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+#head{
+    position: absolute;
+    color: white;
+    font-size: 5rem;
+    text-shadow: 2px 4px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+.sub{
+    position: relative;
+    background-color: black;
+    padding: 30px 100px;
+    align-items: center;
+    justify-content: center;
+}
+.sub h1{
+    font-size: 3rem;
+    color:rgb(83, 89, 245);
+    text-align: center;
+}
+.sub p{
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 30px;
+    line-height: 1.5rem;
+}
+.section{
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    background-color: black;
+    width: 100%;
+}
+.child{
+    width: 400px;
+}
+.mountainhead{
+    font-size: 3rem;
+    color:rgb(83, 89, 245);
+    text-align: justify;
+}
+.paragraph{
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 1.5rem;
+}
+.image{
+   width: 450px;
+   height: 300px;
+   border-radius: 20px;
+}
+.last{
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.last h1{
+    font-size: 3rem;
+    color:rgb(83, 89, 245);
+    text-align: center;
+}
+.last div{
+    display: flex;
+    justify-content: center;
+}
+.last input{
+    border: solid;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 8px;
+}
+.last button{
+    width: 100px;
+    border: solid;
+    padding: 8px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(57, 57, 241);
+    border-radius: 20px;
+}
+.last button:hover{
+    background-color: white;
+    color: blue;
+}
+footer{
+    padding: 20px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+footer p{
+    font-size: 1rem;
+    color: white;
+    padding-top: 30px;
+}
